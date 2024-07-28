@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    font-family: "inter";
+}
+
+#Titulo{
+    background-color: #303030;
+    color: white;
+    width: 1440px;
+    height: 475px;
+}
+
+#Titulosuperior{
+    font-size: 60px;
+    padding-left: 62px;padding-top: 206px;
+
+}
+
+#Subtitulosuperior{
+    font-size: 20px;
+    padding-left: 62px;padding-top: 20px;
+}
+
+#Informações{
+    display: grid;
+    grid-template-columns: 480px 480px 480px;
+    justify-items: center;
+    align-items: center;
+    width: 1440px;height: 229px;
+    background-color: #F9F9F9;
+}
+
+#Foto{
+    width: 1440px;height: 780px;
+    display: grid;
+    grid-template-columns: 820px 620px;
+    justify-items: center;
+    align-items: center
+}
+
+#Txtfoto{
+    width: 735px;height: 161px;
+    padding-left: 77px;
+}
+
+#Titulofoto{
+    font-size: 40px;
+}
+
+#Textofoto{
+    font-size: 24px;
+}
+
+#Estudiodearquitetura{
+    width: 510px;height: 605px;border-radius: 30px;
+    padding-left: px;
+}
+
+#form{
+    display: grid;
+    grid-template-rows:200px 438px;
+    width: 1440px;
+    background-color: #303030 ;
+    justify-content: center;
+    align-items: center;
+}
+
+#Tituloform{
+    font-size: 33px;
+    color: white;
+}
+ 
+#Input{
+    display: grid;
+    grid-auto-flow: row;
+}
+
+.Inputclasse{
+    width: 480px;
+    height: 72px;
+    border: 0px;border-radius: 10px;
+    padding-left: 30px;
+    font-size: 24px ;
+}
+
+#Botao{
+    border: 0px;border-radius: 15px;
+    width: 286px; height: 74px;
+    background-color: #C07212;
+    font-size: 30px;
+    color: white;
+    margin-left: 120px;
+    margin-bottom: 100px;
+    margin-top:  80px;
+    cursor: pointer;
+}
+
+#Botao:hover{
+    transform: translateY(-20px);transition-duration: 0.5s;
+}
+
+#Email{
+    margin-left:  25px;
+}
+
+#Nome{
+    margin-left: 25px;
+    margin-bottom: 56px;
+}
